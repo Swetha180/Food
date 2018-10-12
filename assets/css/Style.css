@@ -1,0 +1,114 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    background-color:lgray;
+	width:1300px;height:1300px;";
+        
+  }
+
+h1 {
+    background-color: #F7C896;
+    padding: 20px 20px;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+	font-family: Montserrat, sans-serif;
+  }
+  
+.wrapper{
+   width: 1200px;
+   overflow: hidden; 
+   background-color:#EAEEEE;
+  }
+.a{  
+    background-color:#F5E4BF;
+    text-align:center;
+    height:400px;
+    width: 600px;
+    float:left;
+	border: 5px solid white;
+    padding: 25px;
+    margin: 25px;
+    padding: 100px 200px;
+	background-image:url("D:\xampp\htdocs\cd2\assets\css\home_image.jpeg");
+    margin: 8px 0;
+    cursor: pointer;
+}
+.b{ 
+    background-color:#F5E4BF;
+    text-align:center;
+    height:400px;
+    width: 600px;
+    padding: 25px;
+	border: 5px solid white;
+    margin: 25px;
+    padding: 100px 200px;
+    margin: 8px 0;
+    cursor: pointer;
+    overflow: hidden; 
+}
+.a>p{
+  color: green;
+  font-style: italic;
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.b>p{
+  font-style: italic;
+  color:green;
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.reg {
+    border-radius: 5px;
+    background-color: #F4F4EF;
+    padding: 20px;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+input[type=reset]:hover {
+    background-color: #45a049;
+}
+input[type=submit] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=reset] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
